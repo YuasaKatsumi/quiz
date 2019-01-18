@@ -10,17 +10,30 @@
 		BB064EE421E74C0200BEE89B /* tableviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB064EE321E74C0200BEE89B /* tableviewViewController.swift */; };
 		BB064EE621E74E2800BEE89B /* account.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB064EE521E74E2800BEE89B /* account.swift */; };
 		BB064EE821E74E4000BEE89B /* makeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB064EE721E74E4000BEE89B /* makeViewController.swift */; };
+		BBA5BD4321EAF38900360938 /* GoogleService-Info-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBA5BD4221EAF38900360938 /* GoogleService-Info-4.plist */; };
+		BBA5BD4521EAF53100360938 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5BD4421EAF53100360938 /* LoginViewController.swift */; };
+		BBA5BD4721EAF60500360938 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5BD4621EAF60500360938 /* NewUserViewController.swift */; };
+		BBA5BD4921EAFEF500360938 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5BD4821EAFEF500360938 /* FirstViewController.swift */; };
+		BBA5BD4B21EB017C00360938 /* begintabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA5BD4A21EB017C00360938 /* begintabbarViewController.swift */; };
 		BBAE7CDB21CD05F400C30084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAE7CDA21CD05F400C30084 /* AppDelegate.swift */; };
 		BBAE7CDD21CD05F400C30084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAE7CDC21CD05F400C30084 /* ViewController.swift */; };
 		BBAE7CE021CD05F400C30084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAE7CDE21CD05F400C30084 /* Main.storyboard */; };
 		BBAE7CE221CD05F500C30084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAE7CE121CD05F500C30084 /* Assets.xcassets */; };
 		BBAE7CE521CD05F500C30084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAE7CE321CD05F500C30084 /* LaunchScreen.storyboard */; };
+		E0B8A98D5CBCE6A0C7DBD961 /* Pods_Quizfirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1642291744517B3BBCF1817 /* Pods_Quizfirebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A76026F64D0D8832DDC3D35D /* Pods-Quizfirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quizfirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quizfirebase/Pods-Quizfirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		B1642291744517B3BBCF1817 /* Pods_Quizfirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quizfirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB064EE321E74C0200BEE89B /* tableviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewViewController.swift; sourceTree = "<group>"; };
 		BB064EE521E74E2800BEE89B /* account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = account.swift; sourceTree = "<group>"; };
 		BB064EE721E74E4000BEE89B /* makeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeViewController.swift; sourceTree = "<group>"; };
+		BBA5BD4221EAF38900360938 /* GoogleService-Info-4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-4.plist"; sourceTree = "<group>"; };
+		BBA5BD4421EAF53100360938 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BBA5BD4621EAF60500360938 /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
+		BBA5BD4821EAFEF500360938 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		BBA5BD4A21EB017C00360938 /* begintabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = begintabbarViewController.swift; sourceTree = "<group>"; };
 		BBAE7CD721CD05F400C30084 /* Quizfirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizfirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAE7CDA21CD05F400C30084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBAE7CDC21CD05F400C30084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +41,7 @@
 		BBAE7CE121CD05F500C30084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBAE7CE421CD05F500C30084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBAE7CE621CD05F500C30084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD85EF38A342961EFAA271A /* Pods-Quizfirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quizfirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quizfirebase/Pods-Quizfirebase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B8A98D5CBCE6A0C7DBD961 /* Pods_Quizfirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57E079EBF650AC3EA91C0BB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1642291744517B3BBCF1817 /* Pods_Quizfirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE602E1651B1C8AF38DE21C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A76026F64D0D8832DDC3D35D /* Pods-Quizfirebase.debug.xcconfig */,
+				DAD85EF38A342961EFAA271A /* Pods-Quizfirebase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BBAE7CCE21CD05F400C30084 = {
 			isa = PBXGroup;
 			children = (
 				BBAE7CD921CD05F400C30084 /* Quizfirebase */,
 				BBAE7CD821CD05F400C30084 /* Products */,
+				AE602E1651B1C8AF38DE21C9 /* Pods */,
+				57E079EBF650AC3EA91C0BB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,14 +95,19 @@
 			isa = PBXGroup;
 			children = (
 				BBAE7CDA21CD05F400C30084 /* AppDelegate.swift */,
+				BBA5BD4821EAFEF500360938 /* FirstViewController.swift */,
 				BBAE7CDC21CD05F400C30084 /* ViewController.swift */,
 				BB064EE321E74C0200BEE89B /* tableviewViewController.swift */,
 				BB064EE521E74E2800BEE89B /* account.swift */,
 				BB064EE721E74E4000BEE89B /* makeViewController.swift */,
+				BBA5BD4421EAF53100360938 /* LoginViewController.swift */,
+				BBA5BD4621EAF60500360938 /* NewUserViewController.swift */,
+				BBA5BD4A21EB017C00360938 /* begintabbarViewController.swift */,
 				BBAE7CDE21CD05F400C30084 /* Main.storyboard */,
 				BBAE7CE121CD05F500C30084 /* Assets.xcassets */,
 				BBAE7CE321CD05F500C30084 /* LaunchScreen.storyboard */,
 				BBAE7CE621CD05F500C30084 /* Info.plist */,
+				BBA5BD4221EAF38900360938 /* GoogleService-Info-4.plist */,
 			);
 			path = Quizfirebase;
 			sourceTree = "<group>";
@@ -80,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBAE7CE921CD05F500C30084 /* Build configuration list for PBXNativeTarget "Quizfirebase" */;
 			buildPhases = (
+				37717B099D93B23341CD39A5 /* [CP] Check Pods Manifest.lock */,
 				BBAE7CD321CD05F400C30084 /* Sources */,
 				BBAE7CD421CD05F400C30084 /* Frameworks */,
 				BBAE7CD521CD05F400C30084 /* Resources */,
+				14C2341A8CB1513CEECB3B5E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA5BD4321EAF38900360938 /* GoogleService-Info-4.plist in Resources */,
 				BBAE7CE521CD05F500C30084 /* LaunchScreen.storyboard in Resources */,
 				BBAE7CE221CD05F500C30084 /* Assets.xcassets in Resources */,
 				BBAE7CE021CD05F400C30084 /* Main.storyboard in Resources */,
@@ -139,16 +181,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14C2341A8CB1513CEECB3B5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Quizfirebase/Pods-Quizfirebase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quizfirebase/Pods-Quizfirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37717B099D93B23341CD39A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quizfirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBAE7CD321CD05F400C30084 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA5BD4521EAF53100360938 /* LoginViewController.swift in Sources */,
+				BBA5BD4B21EB017C00360938 /* begintabbarViewController.swift in Sources */,
 				BB064EE421E74C0200BEE89B /* tableviewViewController.swift in Sources */,
 				BB064EE621E74E2800BEE89B /* account.swift in Sources */,
+				BBA5BD4921EAFEF500360938 /* FirstViewController.swift in Sources */,
 				BBAE7CDD21CD05F400C30084 /* ViewController.swift in Sources */,
 				BBAE7CDB21CD05F400C30084 /* AppDelegate.swift in Sources */,
 				BB064EE821E74E4000BEE89B /* makeViewController.swift in Sources */,
+				BBA5BD4721EAF60500360938 /* NewUserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +391,7 @@
 		};
 		BBAE7CEA21CD05F500C30084 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76026F64D0D8832DDC3D35D /* Pods-Quizfirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +409,7 @@
 		};
 		BBAE7CEB21CD05F500C30084 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD85EF38A342961EFAA271A /* Pods-Quizfirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

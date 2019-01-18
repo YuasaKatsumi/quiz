@@ -7,16 +7,70 @@
 //
 
 import UIKit
-
-class tableviewViewController: UIViewController {
+import Firebase
+class tableviewViewController: UIViewController,UIImagePickerControllerDelegate,UITableViewDelegate,UITableViewDataSource,UINavigationControllerDelegate {
+    @IBOutlet weak var tableview: UITableView!
+    let refreshControll = UIRefreshControl()
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        //セルの数
+        return 1
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell",for:indexPath)
+        cell.selectionStyle = UITableViewCell.SelectionStyle.none
+        //ラベルずけをする
+        return cell
+    }
+   // func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        //ボタンどうする
+     //   
 
     override func viewDidLoad() {
+        tableview.delegate = self
+        tableview.dataSource = self
+        refreshControll.attributedTitle = NSAttributedString(string: "引っ張って更新")
+        refreshControll.addTarget(self, action:#selector(refresh), for:UIControl.Event.valueChanged)
+        var items = [NSDictionary]()
         super.viewDidLoad()
-        UITabBar.appearance().tintColor = UIColor(red: 255/255, green: 233/255, blue: 51/255, alpha: 1.0)
-        //アイコンの色
-        UITabBar.appearance().barTintColor = UIColor(red: 66/255, green: 74/255, blue: 93/255, alpha: 1.0) //
-        UITabBar.appearance().unselectedItemTintColor = UIColor.white
-        // Do any additional setup after loading the view.
+        if UserDefaults.standard.object(forKey: "check") != nil{
+            
+        }else{
+            let loginViewcontroller = self.storyboard?.instantiateViewController(withIdentifier: "login")
+            self.present(loginViewcontroller!,animated: true,completion: nil)
+            
+        }
+        
+        func loadAllData(){
+            //https://officalquizfirebase.firebaseio.com/
+            UIApplication.shared.isNetworkActivityIndicatorVisible = false
+            let firebase = Database.database().reference(fromURL:"https://officalquizfirebase.firebaseio.com/").child("posts")
+            firebase.queryLimited(toLast: 10).observe(.value) {(snapshots,error) in
+                var tempitems = [NSDictionary]()
+                for item in (snapshots.children){
+                    let child = item as! DataSnapshot
+                    let dict = child.value
+                    tempitems.append(dict as! NSDictionary)
+                    
+                }
+              // self.itmes = tempitems
+            //self.items = self.items.reversed()
+                self.tableview.reloadData()
+                UIApplication.shared.isNetworkActivityIndicatorVisible = false
+                
+
+            }
+        }
+    }
+    @objc func refresh(){
+      //  items = [NSDictionary]()
+        //loadAllData()
+        tableview.reloadData()
+        refreshControll.endRefreshing()
     }
     
 
@@ -31,3 +85,4 @@ class tableviewViewController: UIViewController {
     */
 
 }
+
